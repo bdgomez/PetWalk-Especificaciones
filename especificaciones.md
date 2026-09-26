@@ -174,3 +174,7 @@
 * **Pantalla de Calificación:** Debe ser una interfaz inmediata al cierre del servicio, cuyo diligenciamiento requiera menos de 1 minuto de interacción.
 * **Pantalla de Reporte de Incidencias:** Debe estructurarse con una interfaz simplificada que contenga como máximo 3 campos obligatorios de diligenciamiento.
 * **Vista de Trazabilidad:** Debe mostrar de forma clara e inalterable las marcas de tiempo correspondientes al inicio y fin del servicio para ambas partes.
+
+* ## Mockups
+* <img width="442" height="775" alt="Petwalk-mockup" src="https://github.com/user-attachments/assets/c6a67934-c6f1-4f3b-9404-b09e128529c4" />
+
