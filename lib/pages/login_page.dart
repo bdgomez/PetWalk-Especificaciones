@@ -4,6 +4,7 @@ import '../widgets/custom_input_field.dart';
 import '../widgets/petwalk_logo.dart';
 import '../widgets/primary_login_button.dart';
 import '../widgets/social_login_button.dart';
+import 'main_navigation_page.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -123,7 +124,17 @@ class LoginPage extends StatelessWidget {
                                 ),
                               ),
                               const SizedBox(height: 14),
-                              const PrimaryLoginButton(),
+                              PrimaryLoginButton(
+                                onPressed: () {
+                                  Navigator.of(context).pushReplacement(
+                                    MaterialPageRoute<void>(
+                                      builder: (_) => const MainNavigationPage(
+                                        initialIndex: 1,
+                                      ),
+                                    ),
+                                  );
+                                },
+                              ),
                               const SizedBox(height: 22),
                               Row(
                                 children: [
